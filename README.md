@@ -2,7 +2,7 @@
 
 Website statis untuk organisasi mahasiswa teknologi di kampus.
 
-## 🚀 Fitur
+## 👩🏻‍💻 Fitur
 1. Landing Page dengan hero section.
 2. Halaman Tentang Kami.
 3. Struktur Organisasi (anggota).
@@ -17,7 +17,7 @@ Website statis untuk organisasi mahasiswa teknologi di kampus.
 - register.html
 - style.css
 - script.js
-- /images
+- folder gambar (images)
 
 ## 💻 Cara Menjalankan
 1. Download atau clone repository.
