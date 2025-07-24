@@ -1,0 +1,147 @@
+:root {
+  --primary: #43357c;
+  --bg-light: #ffffff;
+  --bg-dark: #121212;
+  --text-light: #000;
+  --text-dark: #fff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--bg-light);
+  color: var(--text-light);
+  transition: 0.3s;
+}
+
+.dark-mode {
+  background: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: var(--primary); 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-left, .nav-right {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-left a, .nav-right a {
+  text-decoration: none;
+  color: #fff;   
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-left a:hover, .nav-right a:hover {
+  color: yellow;        
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo h1 {
+  font-size: 18px;
+  color: #fff;                  
+}
+
+.active {
+  color: yellow;                 
+  font-weight: bold;
+}
+
+
+.btn {
+  background: var(--primary);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #f4f4f400;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.register form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.register input {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.btn {
+  background: var(--primary);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background: #322664;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.image-grid img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}

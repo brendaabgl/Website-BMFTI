@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMFTI - Daftar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+  <nav class="navbar">
+    <ul class="nav-left">
+      <li><a href="index.html" class="active">Beranda</a></li>
+      <li><a href="about.html">Tentang Kami</a></li>
+    </ul>
+
+    <div class="logo">
+      <h1>BMFTI</h1>
+    </div>
+
+    <ul class="nav-right">
+      <li><a href="structure.html">Struktur</a></li>
+      <li><a href="register.html">Daftar</a></li>
+      <li><a href="#" id="theme-toggle" class="theme-toggle">🌙</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <section class="register">
+    <h2>Formulir Pendaftaran</h2>
+    <form id="registerForm">
+      <label>Nama Lengkap:</label>
+      <input type="text" id="name" required>
+
+      <label>NIM:</label>
+      <input type="text" id="nim" required>
+      
+      <label>Email:</label>
+      <input type="email" id="email" required>
+      
+      <button type="submit" class="btn">Daftar</button>
+    </form>
+    <p id="msg"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BMFTI. All Rights Reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
